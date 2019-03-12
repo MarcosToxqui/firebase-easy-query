@@ -1,0 +1,29 @@
+{
+  "name": "firebase-easy-query",
+  "version": "1.0.0",
+  "description": "A little library to help access and execute simple quieryes to Firebase databases.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosToxqui/firebase-easy-query.git"
+  },
+  "keywords": [
+    "firebase-easy-query",
+    "firebase",
+    "easy",
+    "query",
+    "easy queries",
+    "easy firebase"
+  ],
+  "author": "Marcos Becerril",
+  "license": "MIT",
+  "homepage": "https://github.com/MarcosToxqui/firebase-easy-query#readme",
+  "dependencies": {
+    "firebase-admin": "^6.5.0",
+    "uuid": "^3.3.2"
+  },
+  "engines": {
+    "node": "8"
+  }
+}
