@@ -30,7 +30,7 @@ Feq is thinked for beginners developers and small projects or simple development
 <a name="install"></a>
 ## Install
 ```bash
-npm install feq --save
+npm install firebase-easy-query --save
 ```
 
 **If you are developing with Google Cloud Functions sure you are using Node 8 engine.**
