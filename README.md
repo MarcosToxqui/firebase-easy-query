@@ -39,8 +39,7 @@ npm install firebase-easy-query --save
 ## Adding feq to your JS project.
 
 ```js
-const { feq } = require("firebase-easy-query");
-const { operators } = require("firebase-easy-query/operators");
+const { feq, operator } = require("firebase-easy-query");
 ```
 
 <a name="instancing"></a>
@@ -298,7 +297,7 @@ db.From('/users/user01').Select("name", "age", "address").Where(conditions);
 ## Operators
 Usage:
 ```js
-const { operator } = require("firebase-easy-query/extras/operator");
+const { operator } = require("firebase-easy-query");
 ```
 
 - Use **`$eq`** for *equals to*

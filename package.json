@@ -1,6 +1,6 @@
 {
   "name": "firebase-easy-query",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A little library to help access and execute simple quieryes to Firebase databases.",
   "main": "index.js",
   "scripts": {},

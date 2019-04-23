@@ -13,8 +13,16 @@ class __On {
     async Create(parentOrPathName = "", _object_) {
         let key;
 
+        if (typeof parentOrPathName === 'string') {
+            if (parentOrPathName.startsWith("/")) {
+                this.nodePath = parentOrPathName;
+            }
+            else {
+                this.nodePath = `${this.nodePath}/${parentOrPathName}`;
+            }
+        }
+
         if (parentOrPathName && parentOrPathName !== "") {
-            this.nodePath = `${this.nodePath}/${parentOrPathName}`;
             this._create(_object_).catch(error => {
                 console.error("==>", error);
             });
